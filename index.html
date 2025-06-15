@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Eagle Sploit X</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header class="header">
+    <div class="container">
+      <h1 class="logo">Eagle <span class="accent">Sploit X</span></h1>
+      <nav class="nav">
+        <a href="#home" data-i18n="nav_home">Home</a>
+        <a href="#download" data-i18n="nav_download">Download</a>
+        <a href="#contact" data-i18n="nav_contact">Contact</a>
+        <a href="#gallery" data-i18n="nav_gallery">Gallery</a>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <section id="home" class="hero">
+      <div class="container">
+        <h2 class="hero-title" data-i18n="home_title">High-Level Exploiting</h2>
+        <p class="hero-sub" id="slogan">Precision and freedom for your scripts</p>
+        <a href="#download" class="btn primary" data-i18n="home_btn">Download Now</a>
+      </div>
+    </section>
+
+    <section id="download" class="section">
+      <div class="container card">
+        <h2 data-i18n="download_title">Secure Download</h2>
+        <p data-i18n="download_text">Click below to download via Discord:</p>
+        <a href="https://discord.gg/aqEpt7npu5" class="btn primary" data-i18n="download_btn">Join Discord</a>
+        <small data-i18n="download_note">⚠️ Antivirus may give false positives – this is expected.</small>
+      </div>
+    </section>
+
+    <section id="contact" class="section dark">
+      <div class="container card">
+        <h2 data-i18n="contact_title">Contact & Support</h2>
+        <p data-i18n="contact_text">Need help or want to report a bug?</p>
+        <a href="https://discord.gg/aqEpt7npu5" class="btn secondary" data-i18n="contact_btn">Join Our Discord</a>
+      </div>
+    </section>
+
+    <section id="gallery" class="section">
+      <div class="container card">
+        <h2 data-i18n="gallery_title">Gallery</h2>
+        <div class="gallery">
+          <img src="images/executor.png" alt="Executor UI" />
+          <img src="images/inject.png" alt="Injection" />
+          <img src="images/unc.png" alt="UNC" />
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="container">
+      <p>&copy; 2025 Eagle Sploit X. All rights reserved.</p>
+      <div class="language-switcher">
+        <label for="lang-select">🌐</label>
+        <select id="lang-select">
+          <option value="en">English</option>
+          <option value="es">Español</option>
+          <option value="pt">Português (BR)</option>
+        </select>
+      </div>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
